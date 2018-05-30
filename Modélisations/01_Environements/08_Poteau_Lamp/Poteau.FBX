@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2018
 		Month: 5
-		Day: 28
-		Hour: 23
-		Minute: 6
-		Second: 56
-		Millisecond: 587
+		Day: 30
+		Hour: 10
+		Minute: 30
+		Second: 28
+		Millisecond: 194
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,31 +28,31 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\ENJMIN\05_You'veGotMail\You-ve-got-a-mail-graphe\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\ENJMIN\05_You'veGotMail\You-ve-got-a-mail-graphe\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
+			P: "DocumentUrl", "KString", "Url", "", "D:\00_ENJMIN2017\06_You'veGotMail\You'veGotMail\Git_YGM_Graph_29_Mai\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\00_ENJMIN2017\06_You'veGotMail\You'veGotMail\Git_YGM_Graph_29_Mai\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2018"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "28/05/2018 21:06:56.586"
-			P: "Original|FileName", "KString", "", "", "D:\ENJMIN\05_You'veGotMail\You-ve-got-a-mail-graphe\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "30/05/2018 08:30:28.192"
+			P: "Original|FileName", "KString", "", "", "D:\00_ENJMIN2017\06_You'veGotMail\You'veGotMail\Git_YGM_Graph_29_Mai\Modélisations\01_Environements\08_Poteau_Lamp\Poteau.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2018"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "28/05/2018 21:06:56.586"
-			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\Tharin\Documents\3dsMax"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\ENJMIN\05_You'veGotMail\You'veGotMail\00_Projet\02_Environnement\04_Poteau_Lamp\Poteau.max"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "30/05/2018 08:30:28.192"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\TharinMagem\Documents\3dsMax"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\00_ENJMIN2017\06_You'veGotMail\You'veGotMail\00_Projet\02_Environnement\04_Poteau_Lamp\Poteau_Lampe_Version_Nico.max"
 		}
 	}
 }
 GlobalSettings:  {
 	Version: 1000
 	Properties70:  {
-		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxis", "int", "Integer", "",2
 		P: "UpAxisSign", "int", "Integer", "",1
-		P: "FrontAxis", "int", "Integer", "",2
-		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",1
+		P: "FrontAxisSign", "int", "Integer", "",-1
 		P: "CoordAxis", "int", "Integer", "",0
 		P: "CoordAxisSign", "int", "Integer", "",1
 		P: "OriginalUpAxis", "int", "Integer", "",2
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2351982632240, "", "Scene" {
+	Document: 2164905572000, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -97,7 +97,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 4
+	Count: 5
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -110,6 +110,22 @@ Definitions:  {
 				P: "LocalStop", "KTime", "Time", "",0
 				P: "ReferenceStart", "KTime", "Time", "",0
 				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
 			}
 		}
 	}
@@ -210,7 +226,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2352627142256, "Geometry::", "Mesh" {
+	Geometry: 2164898594256, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.72156862745098,0.607843137254902,0.898039215686275
 		}
@@ -361,17 +377,13 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2351909907088, "Model::Poteau", "Mesh" {
+	Model: 2166345315872, "Model::Poteau", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "ScalingOffset", "Vector3D", "Vector", "",0,1.97215226305253e-31,0
-			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
-			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "GeometricTranslation", "Vector3D", "Vector", "",0,23.6255874633789,-3.84909708373016e-06
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,1.08305858020685e-08
 			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.0254,0.0254,0.0254
 			P: "MaxHandle", "int", "Integer", "UH",1
@@ -379,11 +391,13 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	AnimationStack: 2351506321760, "AnimStack::Take 001", "" {
+	AnimationStack: 2164754895904, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
+	}
+	AnimationLayer: 2164904514528, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -393,8 +407,22 @@ Objects:  {
 Connections:  {
 	
 	;Model::Poteau, Model::RootNode
-	C: "OO",2351909907088,0
+	C: "OO",2166345315872,0
+	
+	;AnimLayer::BaseLayer, AnimStack::Take 001
+	C: "OO",2164904514528,2164754895904
 	
 	;Geometry::, Model::Poteau
-	C: "OO",2352627142256,2351909907088
+	C: "OO",2164898594256,2166345315872
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,153953860000
+		ReferenceTime: 0,153953860000
+	}
 }
